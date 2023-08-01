@@ -1,0 +1,8 @@
+[package]
+name = "smallset"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+lz4_flex = { version = "0.11", default-features = false }
+wyhash = "0.5"
